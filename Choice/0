@@ -1,1 +1,47 @@
 
+echo  
+printf "     "
+
+
+
+
+Exit(){
+		zenity --info --text "Thanks for using :
+H_script
+======
+By Hamz-Code
+==========
+"
+		 
+}
+Exit
+clear
+setterm -foreground green
+echo "     Calendar " 
+echo  
+cal
+sleep 1.5
+
+
+clear
+setterm -foreground green
+
+
+echo "                                                  ╔════════════════════════╗"
+echo "                                                  ║     .::  Hamz  ::.     ║"           
+echo "                                                  ╚════════════════════════╝" 
+echo  
+echo  
+echo  
+neofetch
+setterm -foreground green
+echo "╔═════════════════════════════════════════════════╦══════════════════════════╗"
+echo "║                                                 ║=========::Hamz::=========║"
+echo "╠═════════════════════╦═══════════════════════════╩══════════════════════════╝"
+echo "║  !!Never Give Up!!  ║                                                      "
+echo "╚═════════════════════╝"
+echo  
+exit
+cd ..
+cd Script
+exit
