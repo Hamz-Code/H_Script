@@ -1,0 +1,40 @@
+
+
+
+
+clear
+setterm -foreground green
+echo "     Calendar " 
+echo  
+cal
+sleep 1.5
+
+
+clear
+setterm -foreground green
+
+
+echo "                                                   ============================"
+echo "                                                   || .::  Welcome Hamz  ::. ||"           
+echo "                                                   ============================" 
+echo  
+echo  
+echo  
+neofetch
+setterm -foreground green
+echo ===================================================================================================================================
+echo "                                                   =========::Hamz::========="
+echo "==================================================================================================================================="
+echo  "|| !!Never Give Up!! ||"
+echo =======================
+echo  
+#Enabling automated login
+
+
+
+
+
+
+
+
+

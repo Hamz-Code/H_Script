@@ -1,0 +1,4 @@
+clear
+sleep 3.5
+chmod +x g
+./g
