@@ -10,7 +10,7 @@
 #     |_| |_| |____/ \___|_|  |_| .__/ \__| #
 #                               |_|         #
 #                                           #
-#                               Version 1.1 #
+#                               Version 2.5 #
 #############################################
 # BY : Hamz-Code #             
 ##################     
@@ -61,7 +61,7 @@ bash Loading.sh
 H_Script(){
 setterm -foreground green
 echo "     _______________
-     |Version : 1.1|
+     |Version : 2.5|
      ═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═"
 setterm -foreground cyan
 echo -e "      _   _   ____            _       _
@@ -74,7 +74,7 @@ setterm -foreground green
 echo "                                 Tools By : Hamz-Code 
      ═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═="
 setterm -foreground cyan
-echo -e "     |                 !Not For Termux!       $cyan          |"
+echo -e "     |            Copyright© 2020, Hamz-Code  $cyan          |"
 setterm -foreground green
 echo -e " $lightgreen    ═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═="
 setterm -foreground green
@@ -152,7 +152,7 @@ setterm -foreground green
 echo "                                 Tools By : Hamz-Code
      ═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═="
 setterm -foreground cyan
-echo "     |                 !Not For Termux!                 |"
+echo "     |            Copyright© 2020, Hamz-Code            |"
 setterm -foreground green
 echo "     ═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═=═="
 setterm -foreground green
