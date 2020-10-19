@@ -1,8 +1,0 @@
-read -p "Password : " pass
-	if [ $pass == Hamzah ];
-then
-	echo yeah
-else
-		echo no!
-
-fi
