@@ -10081,4 +10081,5 @@ main() {
 }
 
 main "$@"
-sleep 999999999999999999999999999d
+sleep 2
+read -p "Press Enter To Continue..." enterforquit
