@@ -29,7 +29,7 @@ Code Editor   [✔] (Linux Only)
 
 
 
-# Installation 
+# Installation
 1. Run the Setup.py 
 
 bash Setup.sh
