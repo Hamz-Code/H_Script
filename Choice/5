@@ -1,0 +1,17 @@
+clear
+setterm -foreground red
+echo  
+echo "[Warning] Without CapsLock or Capital"
+setterm -foreground white
+echo =====================================
+setterm -foreground cyan
+read -p "   What Is Your Text Editor : " TE
+if [[ $TE = Atom || $TE = atom ]];
+then 
+atom --no-sandbox
+else
+$TE
+fi
+
+
+

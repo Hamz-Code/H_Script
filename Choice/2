@@ -1,0 +1,52 @@
+#This colour 
+cyan='\e[1;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+clear
+th=torshammer
+if [ -d $th ];
+then
+	sleep 1.5
+echo
+echo
+echo "===================================="
+read -p "Enter URL : " \U;
+cd $th
+python2 torshammer.py -t $U
+else
+
+	setterm -foreground yellow
+	echo "Tor's Hammer is not Installed. I'll Install it For You "
+	sleep 0.5
+	setterm -foreground white
+	echo "Installing..."
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	git clone https://github.com/dotfighter/torshammer
+	clear
+	setterm -foreground green
+	echo  
+	echo "The Tor's Hammer Successfully Installed !! "
+	cd $th
+	sleep 1.5
+	echo  
+	echo  
+	echo ====================================
+	cd $th
+	read -p "Enter URL : " \U;
+	echo  
+	echo Running...
+	echo  
+	python2 torshammer.py -t $U 
+	
+		fi
+fi

@@ -1,0 +1,37 @@
+clear
+
+ls=lscript
+if [ -d $ls ];
+then 
+	cd lscript
+	l
+	bash install.sh
+	l
+else
+else
+	echo "lscript is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing lscript]
+	sleep 0.5
+	setterm -foreground white
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	git clone https://github.com/arismelachroinos/lscript
+	clear
+	setterm -foreground green	
+	echo	
+	echo "The Lscript Successfully Installed !! "
+	sleep 1.5
+	cd lscript
+	l
+	bash install.sh
+	l
+fi

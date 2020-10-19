@@ -1,0 +1,25 @@
+clear
+
+
+fsoc="fsociety"
+
+if [ -ad $fsoc ];
+then 
+bash install.sh
+fsociety
+bash H_script.sh
+else 
+echo "Installing fsociety"
+echo  
+git clone https://github.com/manisso/fsociety
+git clone https://github.com/manisso/fsociety
+git clone https://github.com/manisso/fsociety
+git clone https://github.com/manisso/fsociety
+git clone https://github.com/manisso/fsociety
+
+cd fsociety 
+bash install.sh
+fsociety
+
+bash H_script.sh
+fi

@@ -1,0 +1,19 @@
+WH=Wifi-Hacker
+
+if [ -d $WH ];
+then
+	cd Wifi-Hacker
+	bash wifi-hacker.sh
+else
+	echo "Wifi-Hacker is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing]
+	sleep 0.5
+	git clone https://github.com/esc0rtd3w/Wifi-Hacker
+	git clone https://github.com/esc0rtd3w/Wifi-Hacker
+	git clone https://github.com/esc0rtd3w/Wifi-Hacker
+	git clone https://github.com/esc0rtd3w/Wifi-Hacker
+	git clone https://github.com/esc0rtd3w/Wifi-Hacker
+	cd Wifi-Hacker
+	bash wifi-hacker.sh
+fi

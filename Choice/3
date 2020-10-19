@@ -1,0 +1,33 @@
+clear
+
+np=nexphisher
+if [ -d $np ];
+then
+	cd nexphisher 
+	chmod +x setup
+	./setup
+	chmod +x nexphisher
+	./nexphisher
+else
+	echo "NexPhisher is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing]
+	sleep 0.5
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	git clone https://github.com/htr-tech/nexphisher
+	setterm -foreground green
+	clear
+	echo
+	echo "The NexPhisher Successfully Installed !! "
+	cd nexphisher 
+	chmod +x setup
+	./setup
+	chmod +x nexphisher
+	./nexphisher
+fi

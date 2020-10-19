@@ -1,0 +1,19 @@
+adp=admin-panel-finder
+
+if [ -d $adp ];
+then
+	cd admin-panel-finder
+	python2 admin_panel_finder.py
+else
+	echo "admin-panel-finder is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing]
+	sleep 0.5
+	git clone https://github.com/dblackhat/admin-panel-finder
+	git clone https://github.com/dblackhat/admin-panel-finder
+	git clone https://github.com/dblackhat/admin-panel-finder
+	git clone https://github.com/dblackhat/admin-panel-finder
+	git clone https://github.com/dblackhat/admin-panel-finder
+	cd admin-panel-finder
+	python2 admin_panel_finder.py
+fi

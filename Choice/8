@@ -1,0 +1,26 @@
+HE=HiddenEye
+if [ -d $HE ];
+then
+	cd HiddenEye
+	setterm -foregground yellow
+	echo [Installing Requirements]
+	pip install -r requirements.txt
+	python3 HiddenEye.py
+else
+	echo "HiddenEye is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing]
+	sleep 0.5
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	https://github.com/darksecdevelopers/hiddeneye
+	cd HiddenEye
+	setterm -foregground yellow
+	echo [Installing Requirements]
+	pip install -r requirements.txt
+	python3 HiddenEye.py
+fi

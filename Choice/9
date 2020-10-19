@@ -1,0 +1,19 @@
+LL=LALIN
+
+if [ -d $LL ];
+then
+	cd LALIN
+	bash Lalin.sh
+else
+	echo "LALIN is Not Installed. I'll Install it For You"
+	sleep 1.5
+	echo [installing]
+	sleep 0.5
+	git clone https://github.com/screetsec/LALIN
+	git clone https://github.com/screetsec/LALIN
+	git clone https://github.com/screetsec/LALIN
+	git clone https://github.com/screetsec/LALIN
+	git clone https://github.com/screetsec/LALIN
+	cd LALIN
+	bash Lalin.sh
+fi

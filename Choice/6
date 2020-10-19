@@ -1,0 +1,46 @@
+clear
+
+#git clone https://github.com/tuhinshubhra/RED_HAWK
+
+RH=RED_HAWK
+if [ -d $RH ];
+then
+	cd RED_HAWK
+	sleep 1
+	echo  
+	echo "Running..."
+	sleep 2.5
+	php rhawk.php
+else	
+	echo "Wifi-Hacker is Not Installed. I'll Install it For You"
+	sleep 1.5
+	sleep 0.5
+	echo [Installing Red_Hawk]
+	echo 
+	git clone https://github.com/tuhinshubhra/RED_HAWK
+	git clone https://github.com/tuhinshubhra/RED_HAWK
+	git clone https://github.com/tuhinshubhra/RED_HAWK
+	git clone https://github.com/tuhinshubhra/RED_HAWK
+	git clone https://github.com/tuhinshubhra/RED_HAWK
+		
+		
+		
+		
+		php=/bin/php
+		if [ -a $php ];
+		then	
+			setterm -foreground yellow 
+			echo "[Installing php] "
+			echo  
+			setterm -foreground white
+			sudo apt-get install php
+		else
+			echo [php Installed]
+		fi
+	cd RED_HAWK
+	sleep 1
+	echo  
+	echo "Running..."
+	sleep 2.5
+	php rhawk.php
+fi
