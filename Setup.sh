@@ -10,7 +10,7 @@ echo -e " _   _   ____            _       _
 |_| |_| |____/ \___|_|  |_| .__/ \__|
                           |_|"
 echo "========================================="
-echo "                 Tools By : Hamzah1010101"
+echo "                     Tools By : Hamz-Code"
 echo "========================================="
 sudo apt update && apt upgrade
 sudo apt-get install zenity
@@ -21,11 +21,11 @@ sudo apt-get install figlet
 sudo apt-get install cmatrix
 sudo apt-get install neofetch
 sudo apt-get install util-linux
-chmod +x script
+chmod +x H_script.sh
 setterm -foreground green
 sleep 2.5
 echo " "
-echo "Install Successfully"
+echo "Installation Successfully"
 echo  " "
 cd Yes-or-No
 chmod +x Y
@@ -33,7 +33,7 @@ chmod +x N
 chmod +x y
 chmod +x n
 echo "=================
-Password : Hamzah
+Password : __kalinux__
 ============================="
 read -p "Do You Want To Run It [Y/N] =  " \r;
 ./$r
