@@ -32,6 +32,8 @@ Code Editor   [✔] (Linux Only)
 # Installation
 1) Run the Setup.py 
 
+[ bash Setup.py ]
+
 bash Setup.sh
 # Run
 1) bash H_script.sh
@@ -42,4 +44,4 @@ or
 
 1) chmod +x H_script.sh
 
-2) ./Hamz
+2) ./H_script.sh
