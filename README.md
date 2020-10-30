@@ -32,7 +32,6 @@ Code Editor   [✔] (Linux Only)
 # Installation
 1) Run the Setup.py 
 
-[ bash Setup.py ]
 
 bash Setup.sh
 # Run
