@@ -1,2 +1,2 @@
 cd ..
-./script
+bash H_script.sh
