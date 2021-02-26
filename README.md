@@ -1,6 +1,6 @@
 # H_Script
 
-Version V2.5
+Version V2.5s
 
 Copyright© 2020, Hamz-Code
 
@@ -25,7 +25,6 @@ Admin Finder  [✔]
 Sql Injection [R]
 
 Code Editor   [✔] (Linux Only)
-
 
 
 
